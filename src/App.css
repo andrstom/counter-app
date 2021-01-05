@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
+
+.jumbotron {
+  background-color: #679aff !important;
+  text-align: center;
+}
+
+.bordered {
+  padding: 10px 10px;
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 5px 5px;
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px 5px;
+  -webkit-box-shadow: 5px 5px 10px 5px rgba(173, 173, 173, 1);
+  -moz-box-shadow: 5px 5px 10px 5px rgba(173, 173, 173, 1);
+  box-shadow: 5px 5px 10px 5px rgba(173, 173, 173, 1);
+}
+
+.bordered:hover {
+  border-radius: 5px 5px;
+  -webkit-box-shadow: 5px 5px 10px 5px rgb(88, 86, 233, 1);
+  -moz-box-shadow: 5px 5px 10px 5px rgba(88, 86, 233, 1);
+  box-shadow: 5px 5px 10px 5px rgba(88, 86, 233, 1);
+  transition: 0.5s;
+}
+
+.stopwatch ul {
+  list-style: none;
+  margin: 10px auto;
+  padding-left: 0px;
+  width: 50%;
+  border-radius: 5px 5px;
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px 5px;
+  -webkit-box-shadow: 5px 5px 10px 5px rgba(173, 173, 173, 1);
+  -moz-box-shadow: 5px 5px 10px 5px rgba(173, 173, 173, 1);
+  box-shadow: 5px 5px 10px 5px rgba(173, 173, 173, 1);
+}
+
+.stopwatch ul li {
+  border: 1px solid lightgrey;
+}
+
+.stopwatch ul li:nth-child(odd) {
+  background: rgba(0, 0, 0, 0.07);
+}
